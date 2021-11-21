@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Clasificación de sistemas de telecomunicaciones</string>
+    <string name="btn_init_test">Iniciar Evaluación</string>
+
+    <string name="txt_clasificaciones">Clasificaciones</string>
+    <string name="txt_modo_transmision">Modo de transmisión</string>
+    <string name="txt_formato">Formato</string>
+    <string name="txt_tipo_flujo">Tipo de flujo</string>
+    <string name="txt_tam">Tamaño</string>
+    <string name="txt_medio_transmision">Medio de transmisión</string>
+
+
+    <!--    TEXTOS MODO DE TRANSMISION-->
+    <string name="txt_modo_transmision_simplex_def">O unidireccional, es aquella que ocurre en una dirección solamente.</string>
+    <string name="txt_modo_transmision_half_suplex_def">Permite transmitir en ambas direcciones; sin embargo la transmisión puede ocurrir solamente en una dirección a la vez.</string>
+    <string name="txt_modo_transmision_full_duplex_def">Permite transmitir en ambas direcciones, pero simultáneamente por el mismo canal.</string>
+    <string name="txt_modo_transmision_simplex">Simplex</string>
+    <string name="txt_modo_transmision_half_suplex">Half Duplex</string>
+    <string name="txt_modo_transmision_full_duplex">Full Duplex</string>
+    <string name="tipos_de_modos">tipos de modos</string>
+
+
+    <!--    TEXTOS FOMATO -->
+    <string name="txt_formato_transmision_serie">Serie</string>
+    <string name="txt_formato_transmision_paralelo">Paralelo</string>
+    <string name="txt_formato_transmision_serie_def">La información es transmitida por un solo canal de transmisión.</string>
+    <string name="txt_formato_transmision_paralelo_def">La información es transmitida por n canales de transmisión.</string>
+
+
+    <!--    TIPOS DE FLUJO -->
+    <string name="txt_tipo_de_flujo_point_to_point">Point to point link</string>
+    <string name="txt_tipo_de_flujo_point_to_multipoint">Point to multipoint</string>
+    <string name="txt_tipo_de_flujo_point_to_direct_link">Direct Link</string>
+    <string name="txt_tipo_de_flujo_multi_to_multi">Multipoint to multipoint</string>
+    <string name="txt_tipo_de_flujo">Tipos de flujo</string>
+
+
+    <!--    TEXTOS TOPOLOGÍA -->
+    <string name="txt_topologia">Topología</string>
+    <string name="txt_topologia_bus">Bus</string>
+    <string name="txt_topologia_estrella">Estrella</string>
+    <string name="txt_topologia_anillo">Anillo</string>
+    <string name="txt_topologia_arbol">Árbol</string>
+    <string name="txt_topologia_doble_anillo">Doble Anillo</string>
+    <string name="txt_topologia_malla">Malla</string>
+    <string name="txt_topologia_mixta">Mixta</string>
+
+
+    <!--    TEXTOS MEDIOS DE TRANSMISIÓN -->
+    <string name="txt_medio_transmision_medio_guiado">Medios guiados</string>
+    <string name="txt_medio_transmision_medio_guiado_fibra_optica">Fibra óptica</string>
+    <string name="txt_medio_transmision_medio_guiado_coaxial">Coaxial</string>
+    <string name="txt_medio_transmision_medio_guiado_stp">STP (shielded Twisted-pair)</string>
+    <string name="txt_medio_transmision_medio_guiado_utp">UTP (Unshielded Twisted pair)</string>
+    <string name="txt_medio_transmision_medio_guiado_ftp">FTP (Foil twisted pair)</string>
+    <string name="txt_medio_transmision_medio_no_guiados">Medios no guiados</string>
+    <string name="txt_medio_transmision_medio_no_guiados_agua">Agua</string>
+    <string name="txt_medio_transmision_medio_no_guiados_aire">Aire</string>
+    <string name="txt_medio_transmision_medio_no_guiados_espacio_libre">Espacio Libre</string>
+
+    <!--    TEXTOS TAMANIO DE RED-->
+    <string name="txt_medio_transmision_tipo_red_tamanio">Tamaño</string>
+    <string name="txt_medio_transmision_tipo_red_san">Storage Area Network (SAN): es una tecnología muy usada por grandes empresas para obtener mayor flexibilidad en la obtención y manipulación de los datos que necesita para su desenvolvimiento.</string>
+    <string name="txt_medio_transmision_tipo_red_pan">uPersonal Area Network (PAN): es una red integrada por todos los dispositivos en el entorno local y cercano de su usuario, es decir que la componen todos los aparatos que están cerca del mismo</string>
+    <string name="txt_medio_transmision_tipo_red_lan">uLocal Area Network (LAN): son el tipo de red más extendido, utilizándose primordialmente para el intercambio de datos y recursos entre las computadoras ubicadas en un espacio relativamente pequeño.</string>
+    <string name="txt_medio_transmision_tipo_red_man">uMetropolitan Area Network (MAN): es una red de datos diseñada específicamente para ser utilizada en ámbitos de ciudades o pueblos. Las Redes de Área Metropolitana son más grandes que las redes de área local o LAN, pero menores en alcance geográfico que las redes de área amplia (WAN).</string>
+    <string name="txt_medio_transmision_tipo_red_wan">uWide Area Network (WAN): es básicamente una o más redes LAN interconectadas entre sí para poder abarcar mucho más territorio, a veces incluso, hasta continentes.</string>
+
+
+    <!--    TEXTOS PREGUNTAS -->
+    <string name="txt_enuciado_pregunta_1">¿Es full-duplex un tipo de topología?</string>
+    <string name="txt_enuciado_pregunta_2">¿Cuál es el tipo de red con mayor alcance geográfico?</string>
+    <string name="txt_enuciado_pregunta_3">¿Por cuántos canales es transmitida la información en serie?</string>
+    <string name="txt_enuciado_pregunta_4">¿En contexto de sistemas de telecomunicaciones, estrella es?</string>
+    <string name="txt_enuciado_pregunta_5">¿Satelite es una de las clasificaciones de los sistemas de telecomunicaciones?</string>
+    <string name="txt_respuesta_verdadera">V</string>
+    <string name="txt_resspuesta_falsa">F</string>
+    <string name="txt_opcion_tipo_red_man">MAN</string>
+    <string name="txt_opcion_tipo_red_wan">WAN</string>
+    <string name="txt_opcion_tipo_red_lan">LAN</string>
+
+    <string name="txt_opcion_estrella_1">Un objeto astronómico luminoso</string>
+    <string name="txt_opcion_estrella_2">Un tipo de topología de red</string>
+    <string name="txt_opcion_estrella_3">Un animal marino</string>
+    <string name="txt_opcion_estrella_4">Un tipo de destornillador</string>
+
+    <string name="txt_opcion_numero_canales_1">1</string>
+    <string name="txt_opcion_numero_canales_2">n canales</string>
+    <string name="txt_opcion_numero_canales_3">4</string>
+
+
+    <string name="txt_validar_test">Validar Respuestas</string>
+    <string name="txt_realizar_test">Realizar Test</string>
+
+    <string name="txt_tag_respuesta_correcta">Respuesta Correcta</string>
+
+</resources>
+
