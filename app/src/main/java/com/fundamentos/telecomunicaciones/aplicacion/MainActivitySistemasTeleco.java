@@ -20,7 +20,7 @@ import com.fundamentos.telecomunicaciones.aplicacion.preguntas.FormularioTestMai
  * Nicolas Martinez Marin - 1410010183
  * Luis Eduardo Ochoa - 1910010689
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivitySistemasTeleco extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
