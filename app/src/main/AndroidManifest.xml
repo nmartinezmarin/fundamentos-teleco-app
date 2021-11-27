@@ -5,10 +5,46 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/app_name_modulacion"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FundamentosTelecomunicaciones">
+        <activity
+            android:name=".modulacion.tipos.modulacion.TiposModulacionPMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.tipos.modulacion.TiposModulacionFMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.tipos.modulacion.TipoModulacionDSBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.tipos.modulacion.TiposModulacionVSBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.tipos.modulacion.TiposModulacionSSBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.tipos.modulacion.TiposModulacionAMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.TranslacionFrecuenciaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.ModulacionDobleBandaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.TiposModulacionMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.RangosFrecuenciaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.ModulacionAnalogicaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modulacion.OndaElectromagnecticaActivity"
+            android:exported="false" />
         <activity
             android:name=".preguntas.FormularioTestMainActivity"
             android:exported="false" />
