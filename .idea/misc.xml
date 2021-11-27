@@ -9,7 +9,8 @@
         <entry key="app/src/main/res/layout/activity_clasificacion_tamanio_main.xml" value="0.2171875" />
         <entry key="app/src/main/res/layout/activity_clasificacion_tipo_flujo_main.xml" value="0.20304568527918782" />
         <entry key="app/src/main/res/layout/activity_clasificacion_topologia_main.xml" value="0.2171875" />
-        <entry key="app/src/main/res/layout/activity_formulario_test_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_formulario_modulacion_main.xml" value="0.25679347826086957" />
+        <entry key="app/src/main/res/layout/activity_formulario_test_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main_modulacion.xml" value="0.1638888888888889" />
         <entry key="app/src/main/res/layout/activity_modo_transmision.xml" value="0.2171875" />
@@ -22,6 +23,9 @@
         <entry key="app/src/main/res/layout/activity_tipos_modulacion_amactivity.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_tipos_modulacion_fmactivity.xml" value="0.18971631205673758" />
         <entry key="app/src/main/res/layout/activity_tipos_modulacion_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_tipos_modulacion_pmactivity.xml" value="0.17980072463768115" />
+        <entry key="app/src/main/res/layout/activity_tipos_modulacion_ssbactivity.xml" value="0.2477355072463768" />
+        <entry key="app/src/main/res/layout/activity_tipos_modulacion_vsbactivity.xml" value="0.17844202898550723" />
         <entry key="app/src/main/res/layout/activity_translacion_frecuencia_main.xml" value="0.19655521783181357" />
       </map>
     </option>
