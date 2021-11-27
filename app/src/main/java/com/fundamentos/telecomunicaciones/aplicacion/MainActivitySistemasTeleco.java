@@ -19,6 +19,7 @@ import com.fundamentos.telecomunicaciones.aplicacion.preguntas.FormularioTestMai
  * Fundamentos de Telecomunicaciones
  * Nicolas Martinez Marin - 1410010183
  * Luis Eduardo Ochoa - 1910010689
+ * Arandia Ayala Wilmer Fernando - 1920010783
  */
 public class MainActivitySistemasTeleco extends AppCompatActivity {
 
