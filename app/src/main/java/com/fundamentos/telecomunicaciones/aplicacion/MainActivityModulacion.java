@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.fundamentos.telecomunicaciones.aplicacion.modulacion.ModulacionAnalogicaMainActivity;
-import com.fundamentos.telecomunicaciones.aplicacion.modulacion.ModulacionDobleBandaMainActivity;
 import com.fundamentos.telecomunicaciones.aplicacion.modulacion.OndaElectromagnecticaActivity;
 import com.fundamentos.telecomunicaciones.aplicacion.modulacion.RangosFrecuenciaMainActivity;
 import com.fundamentos.telecomunicaciones.aplicacion.modulacion.TiposModulacionMainActivity;

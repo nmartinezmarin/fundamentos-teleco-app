@@ -10,22 +10,22 @@
         android:id="@+id/txt_onda_titulo_1"
         android:layout_width="189dp"
         android:layout_height="28dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="@string/txt_onda_titulo_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="327dp"
-        android:layout_height="187dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="332dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091">
+        app:layout_constraintTop_toBottomOf="@+id/txt_onda_titulo_1">
 
         <TextView
             android:id="@+id/txv_onda_electromagnetica"
@@ -44,35 +44,32 @@
         android:id="@+id/imageView"
         android:layout_width="276dp"
         android:layout_height="120dp"
+        android:layout_marginTop="12dp"
         android:contentDescription="ondas"
         android:src="@drawable/ondas_electroma"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
     <TextView
         android:id="@+id/txt_onda_titulo_2"
-        android:layout_width="311dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="388dp"
+        android:layout_width="327dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
         android:text="@string/txt_onda_titulo_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="323dp"
-        android:layout_height="157dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="327dp"
+        android:layout_height="116dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722">
+        app:layout_constraintTop_toBottomOf="@+id/txt_onda_titulo_2">
 
         <TextView
             android:id="@+id/txv_text_espectro_frecuencia"
@@ -89,14 +86,15 @@
         android:id="@+id/imageView3"
         android:layout_width="276dp"
         android:layout_height="120dp"
+        android:layout_marginTop="52dp"
         android:contentDescription="ondas"
         android:src="@drawable/epectro_frecuencia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.973" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
