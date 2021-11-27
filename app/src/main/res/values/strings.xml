@@ -69,11 +69,31 @@
 
 
     <!--    TEXTOS PREGUNTAS -->
-    <string name="txt_enuciado_pregunta_1">¿Es full-duplex un tipo de topología?</string>
-    <string name="txt_enuciado_pregunta_2">¿Cuál es el tipo de red con mayor alcance geográfico?</string>
-    <string name="txt_enuciado_pregunta_3">¿Por cuántos canales es transmitida la información en serie?</string>
-    <string name="txt_enuciado_pregunta_4">¿En contexto de sistemas de telecomunicaciones, estrella es?</string>
-    <string name="txt_enuciado_pregunta_5">¿Satelite es una de las clasificaciones de los sistemas de telecomunicaciones?</string>
+<!--    <string name="txt_enuciado_pregunta_1">¿Es full-duplex un tipo de topología?</string>-->
+<!--    <string name="txt_enuciado_pregunta_2">¿Cuál es el tipo de red con mayor alcance geográfico?</string>-->
+<!--    <string name="txt_enuciado_pregunta_3">¿Por cuántos canales es transmitida la información en serie?</string>-->
+<!--    <string name="txt_enuciado_pregunta_4">¿En contexto de sistemas de telecomunicaciones, estrella es?</string>-->
+    <string name="txt_enuciado_pregunta_1">En los rangos de frecuencias, LF significa</string>
+    <string name="txt_enuciado_pregunta_2">El rango de frecuencias entre 0.3 THz y 3THz está designado a</string>
+    <string name="txt_enuciado_pregunta_3">Al modular</string>
+    <string name="txt_enuciado_pregunta_4">¿La onda portadora hace parte de la modulación?</string>
+    <string name="txt_enuciado_pregunta_5">La ecuación que describe una portadora con modulación de frecuencia es : Z(t) = Vp cos [wi(t)t + ∅]</string>
+    <string name="txt_enuciado_pregunta_6">¿Las ondas electromagnéticas necesitan un medio físico para propagarse?</string>
+    <string name="txt_enuciado_pregunta_7">En términos de modulación, AM significa</string>
+    <string name="txt_enuciado_pregunta_8">¿El rango de frecuencias que va desde 30 Hz hasta los 300 Hz, es llamado frecuencias extremadamente bajas</string>
+    <string name="txt_enuciado_pregunta_9">Una ventaja de la modulación de banda lateral única es que, al eliminar una banda lateral, ¿se reduce el ancho de banda por mitad?</string>
+    <string name="txt_enuciado_pregunta_10">RF hace referencia a</string>
+    <string name="txt_enuciado_pregunta_11">La luz ultravioleta está en el rango de frecuencias de</string>
+    <string name="txt_enuciado_pregunta_12">¿La modulación radica en hacer que un parámetro de una señal portadora cambie o varíe?</string>
+    <string name="txt_enuciado_pregunta_13">Modificar la amplitud de una de una señal corresponde a</string>
+    <string name="txt_enuciado_pregunta_14">PM significa</string>
+    <string name="txt_enuciado_pregunta_15">Modificar la frecuencia de una de una señal portadora corresponde a</string>
+    <string name="txt_enuciado_pregunta_16">Una ventaja de la banda vestigial única es</string>
+    <string name="txt_enuciado_pregunta_17">¿En la Doble Banda Lateral con portadora suprimida la portadora se suprime?</string>
+    <string name="txt_enuciado_pregunta_18">FM, significa</string>
+    <string name="txt_enuciado_pregunta_19">El teorema de traslación en frecuencia, establece que la multiplicación de una señal f(t) por una señal sinusoidal de frecuencia Wc, traslada su espectro de frecuencia en ± Wc radianes.</string>
+    <string name="txt_enuciado_pregunta_20">.(DSB-SC) significa</string>
+
     <string name="txt_respuesta_verdadera">V</string>
     <string name="txt_resspuesta_falsa">F</string>
     <string name="txt_opcion_tipo_red_man">MAN</string>
@@ -89,6 +109,55 @@
     <string name="txt_opcion_numero_canales_2">n canales</string>
     <string name="txt_opcion_numero_canales_3">4</string>
 
+    <string name="txt_opcion_pregunta_1_a">La fotosíntesis</string>
+    <string name="txt_opcion_pregunta_1_b">Bajas frecuencias</string>
+    <string name="txt_opcion_pregunta_1_c">Low fase</string>
+
+    <string name="txt_opcion_pregunta_2_a">Rayos gamma</string>
+    <string name="txt_opcion_pregunta_2_b">Rayos x</string>
+    <string name="txt_opcion_pregunta_2_c">Luz infrarroja</string>
+
+    <string name="txt_opcion_pregunta_3_a">Se evita interferencia y se controlan mejor las señales</string>
+    <string name="txt_opcion_pregunta_3_b">Las antenas son más duraderas</string>
+    <string name="txt_opcion_pregunta_3_c">Los satélites envían información errónea</string>
+
+
+
+    <string name="txt_opcion_pregunta_7_a">Ante Meridiem</string>
+    <string name="txt_opcion_pregunta_7_b">Antes del mediodía</string>
+    <string name="txt_opcion_pregunta_7_c">Amplitud modulada</string>
+
+    <string name="txt_opcion_pregunta_10_a">Radio frecuencia</string>
+    <string name="txt_opcion_pregunta_10_b">Resonancia de fase</string>
+    <string name="txt_opcion_pregunta_10_c">Real fina</string>
+
+    <string name="txt_opcion_pregunta_11_a">5nHz a 10nHz</string>
+    <string name="txt_opcion_pregunta_11_b">3PHz a 30PHz</string>
+    <string name="txt_opcion_pregunta_11_c">10KHz a 20Khz</string>
+
+    <string name="txt_opcion_pregunta_13_a">AM</string>
+    <string name="txt_opcion_pregunta_13_b">FM</string>
+    <string name="txt_opcion_pregunta_13_c">PM</string>
+
+    <string name="txt_opcion_pregunta_14_a">Fase modulada</string>
+    <string name="txt_opcion_pregunta_14_b">Pasado mediodía</string>
+    <string name="txt_opcion_pregunta_14_c">Peso mediano</string>
+
+    <string name="txt_opcion_pregunta_15_a">AM</string>
+    <string name="txt_opcion_pregunta_15_b">FM</string>
+    <string name="txt_opcion_pregunta_15_c">PM</string>
+
+    <string name="txt_opcion_pregunta_16_a">Es peor para transmitir señales</string>
+    <string name="txt_opcion_pregunta_16_b">Ocupa menor ancho de banda que la modulación en AM de Doble Banda Lateral DSB-LC</string>
+    <string name="txt_opcion_pregunta_16_c">Los vestigios son sobras</string>
+
+    <string name="txt_opcion_pregunta_18_a">Frecuencia modulada</string>
+    <string name="txt_opcion_pregunta_18_b">Pasado mediodía</string>
+    <string name="txt_opcion_pregunta_18_c">Peso mediano</string>
+
+    <string name="txt_opcion_pregunta_20_a">Doble Banda Lateral con portadora suprimida</string>
+    <string name="txt_opcion_pregunta_20_b">Deconstrucción de las bandas suprimidas</string>
+    <string name="txt_opcion_pregunta_20_c">Doble banda horizontal con portadora suprimida</string>
 
     <string name="txt_validar_test">Validar Respuestas</string>
     <string name="txt_realizar_test">Realizar Test</string>
@@ -143,9 +212,7 @@ Modular es importante en las telecomunicaciones porque permite un mejor aprovech
     <string name="txt_tipos_modulacion_doble_banda_lateral_unica">Banda Lateral Única (SSB)</string>
 
 
-
     <string name="txt_tipos_modulacion_doble_banda_lateral_vestigial">Banda Lateral Vestigial (VSB)</string>
-
 
 
     <string name="txt_tipos_modulacion_doble_banda_lateral_suprimida">Doble Banda Lateral con portadora suprimida (DSB-SC)</string>
@@ -157,10 +224,7 @@ Modular es importante en las telecomunicaciones porque permite un mejor aprovech
     <string name="txt_tipos_modulacion_fm_titulo">Modulación de frecuencia (FM)</string>
 
 
-
-
     <string name="txt_tipos_modulacion_pm">P.M.</string>
-
 
 
 </resources>

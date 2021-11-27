@@ -12,7 +12,7 @@ import com.fundamentos.telecomunicaciones.aplicacion.R;
 
 public class FormularioTestMainActivity extends AppCompatActivity {
 
-    private final int cantidadPreguntas = 5;
+    private final int cantidadPreguntas = 20;
 
     //Texto donde se muestra el resultado del test
     private TextView respuestaTest;
