@@ -11,8 +11,18 @@
         <entry key="app/src/main/res/layout/activity_clasificacion_topologia_main.xml" value="0.2171875" />
         <entry key="app/src/main/res/layout/activity_formulario_test_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main_modulacion.xml" value="0.1638888888888889" />
         <entry key="app/src/main/res/layout/activity_modo_transmision.xml" value="0.2171875" />
+        <entry key="app/src/main/res/layout/activity_modulacion_analogica_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_modulacion_doble_banda_main.xml" value="0.1590678824721378" />
+        <entry key="app/src/main/res/layout/activity_onda_electromagnectica.xml" value="0.3138586956521739" />
         <entry key="app/src/main/res/layout/activity_pregunta1_main.xml" value="0.2171875" />
+        <entry key="app/src/main/res/layout/activity_rangos_frecuencia_main.xml" value="0.1590678824721378" />
+        <entry key="app/src/main/res/layout/activity_tipo_modulacion_dsbactivity.xml" value="0.18971631205673758" />
+        <entry key="app/src/main/res/layout/activity_tipos_modulacion_amactivity.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_tipos_modulacion_fmactivity.xml" value="0.18971631205673758" />
+        <entry key="app/src/main/res/layout/activity_tipos_modulacion_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_translacion_frecuencia_main.xml" value="0.19655521783181357" />
       </map>
     </option>
   </component>

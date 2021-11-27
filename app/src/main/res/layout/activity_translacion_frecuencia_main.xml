@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modulacion.TranslacionFrecuenciaMainActivity">
+
+
+    <TextView
+        android:id="@+id/txt_translacion_titulo_1"
+        android:layout_width="189dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/txt_translacion_titulo_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView_translacion"
+        android:layout_width="338dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_translacion_titulo_1"
+        app:layout_constraintVertical_bias="0.085">
+
+        <TextView
+            android:id="@+id/txv_translacion"
+            android:layout_width="327dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/txt_translacion_definicion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.392"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/img_traslacion_1"
+        android:layout_width="262dp"
+        android:layout_height="133dp"
+        android:src="@drawable/traslacion_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView_translacion"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <ImageView
+        android:id="@+id/img_traslacion_2"
+        android:layout_width="261dp"
+        android:layout_height="129dp"
+        android:src="@drawable/traslacion_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_traslacion_1"
+        app:layout_constraintVertical_bias="0.276" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,4 +6,126 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityModulacion">
 
+    <Button
+        android:id="@+id/btn_evaluacion_modulacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_init_test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238"
+        android:onClick="empezarTest"/>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="256dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_evaluacion_modulacion">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/txt_modulacion_menu" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_modulacion_onda_electromagnetica"
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt_modulacion_onda_electromagnetica"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:onClick="irAOndaElectromagnetica"/>
+
+            <Button
+                android:id="@+id/btn_modulacion_rangos_frecuencia"
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt_modulacion_rangos_frecuencia"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:onClick="irARangosFrecuencia"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_modulacion_modulacion_analogica"
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt_modulacion_modulacion_analogica"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:onClick="irAModulacionAnalogica"/>
+
+            <Button
+                android:id="@+id/btn_modulacion_translacion_frecuencia"
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt_translacion_titulo_1"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:onClick="irATranslacionFrecuencia"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_modulacion_tipos_modulacion_analogica"
+                android:layout_width="0dp"
+                android:layout_margin="3dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt_modulacion_tipos_modulacion_analogica"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:onClick="irAtiposModulacion"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
