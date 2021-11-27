@@ -31,9 +31,6 @@
             android:name=".modulacion.TranslacionFrecuenciaMainActivity"
             android:exported="false" />
         <activity
-            android:name=".modulacion.ModulacionDobleBandaMainActivity"
-            android:exported="false" />
-        <activity
             android:name=".modulacion.TiposModulacionMainActivity"
             android:exported="false" />
         <activity

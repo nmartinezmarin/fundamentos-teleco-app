@@ -95,5 +95,73 @@
 
     <string name="txt_tag_respuesta_correcta">Respuesta Correcta</string>
 
+
+    <!-- Menú modulación -->
+    <string name="txt_modulacion_menu">Técnicas de modulación analógica.</string>
+    <string name="txt_modulacion_onda_electromagnetica">Onda electromagnética.</string>
+    <string name="txt_modulacion_rangos_frecuencia">Rangos de frecuencia.</string>
+    <string name="txt_modulacion_modulacion_analogica">Modulación analógica</string>
+    <string name="txt_modulacion_tipos_modulacion_analogica">Tipos modulación analógica</string>
+
+
+    <!-- Onda electromagnética -->
+    <string name="txt_onda_elec_menu">Técnicas de modulación analógica.</string>
+    <string name="text_onda_electromagnetica">Son aquellas ondas que no necesitan un medio material para propagarse. Incluyen, entre otras, la luz visible y las ondas de radio, televisión y telefonía.​
+
+Todas se propagan en el vacío a una velocidad constante, muy alta (300 0000 km/s) pero no infinita. Gracias a ello podemos observar la luz emitida por una estrella lejana hace tanto tiempo que quizás esa estrella haya desaparecido ya. O enterarnos de un suceso que ocurre a miles de kilómetros prácticamente en el instante de producirse.​
+
+​
+
+Las ondas electromagnéticas se propagan mediante una oscilación de campos eléctricos y magnéticos. Los campos electromagnéticos al "excitar" los electrones de nuestra retina, nos comunican con el exterior y permiten que nuestro cerebro "construya" el escenario del mundo en que estamos.​
+Las O.E.M. son también soporte de las telecomunicaciones y el funcionamiento complejo del mundo actual.</string>
+
+
+    <string name="text_espectro_frecuencia">El espectro electromagnético de frecuencias total, donde se muestran los lugares aproximados de diversos servicios. Este espectro de frecuencias va desde las subsónicas (unos pocos hertz) hasta los rayos cósmicos (1022 Hz). El espectro de frecuencias se subdivide en subsecciones o bandas. Cada banda tiene un nombre y sus límites. </string>
+    <string name="txt_onda_titulo_1">Onda electromagnética </string>
+    <string name="txt_onda_titulo_2">Espectro de frecuencias electromagnético </string>
+
+
+    <!-- Rango Frecuencia -->
+    <string name="txt_rango_frecuencia">Rangos de frecuencias </string>
+
+
+    <!-- Modulación -->
+    <string name="txt_modulacion_titulo_1">Modulación analógica</string>
+    <string name="txt_modulacion_definicion">La modulación radica en hacer que un parámetro de una señal portadora, cambie o varié, sistemática de valor conforme con las variaciones de la señal moduladora o modulante, que es mensaje que se desea transmitir. La modulación abarca el conjunto de técnicas empleadas para transmitir información sobre una onda portadora, típicamente una onda sinusoidal. 
+Modular es importante en las telecomunicaciones porque permite un mejor aprovechamiento del canal de comunicación, lo que a su vez facilita el hecho transmitir más información en forma simultánea, protegiéndola de posibles interferencias y ruidos.
+</string>
+
+    <!--Translación en Frecuencia -->
+    <string name="txt_translacion_titulo_1">Translación en frecuencia </string>
+    <string name="txt_translacion_definicion">El teorema de traslación en frecuencia, establece que la multiplicación de una señal f(t) por una señal sinusoidal de frecuencia Wc, traslada su espectro de frecuencia en ± Wc radianes.</string>
+
+    <!-- tipos modulación analógica -->
+    <string name="txt_tipos_modulacion_convencional">Convencional (A.M.)</string>
+    <string name="txt_tipos_modulacion_convencional_titulo">Modulación de amplitud(A.M)</string>
+
+
+    <string name="txt_tipos_modulacion_doble_banda_lateral_unica">Banda Lateral Única (SSB)</string>
+
+
+
+    <string name="txt_tipos_modulacion_doble_banda_lateral_vestigial">Banda Lateral Vestigial (VSB)</string>
+
+
+
+    <string name="txt_tipos_modulacion_doble_banda_lateral_suprimida">Doble Banda Lateral con portadora suprimida (DSB-SC)</string>
+    <string name="txt_tipos_modulacion_doble_banda_lateral_suprimida_texto_1">Es una transmisión en la que las frecuencias producidas por la modulación de amplitud (AM) están espaciadas simétricamente por encima y por debajo de la frecuencia de la portadora y el nivel de la portadora se reduce al nivel práctico más bajo, idealmente suprimido por completo.</string>
+    <string name="txt_tipos_modulacion_doble_banda_lateral_suprimida_texto_2">En la modulación DSB-SC, a diferencia de AM, la portadora de onda no se transmite; así, gran parte de la potencia se distribuye entre las bandas laterales, lo que implica un aumento de la cobertura en DSB-SC, en comparación con AM, para el mismo uso de potencia.</string>
+    <string name="txt_tipos_modulacion_doble_banda_lateral_suprimida_texto_3">La transmisión DSB-SC es un caso especial de transmisión de portadora reducida de doble banda lateral. Se utiliza para sistemas de datos por radio. Este modo se utiliza con frecuencia en comunicaciones de voz de radioaficionados, especialmente en bandas de alta frecuencia.</string>
+
+    <string name="txt_tipos_modulacion_fm">F.M.</string>
+    <string name="txt_tipos_modulacion_fm_titulo">Modulación de frecuencia (FM)</string>
+
+
+
+
+    <string name="txt_tipos_modulacion_pm">P.M.</string>
+
+
+
 </resources>
 
